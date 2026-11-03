@@ -20,7 +20,7 @@ Most HTTP servers don't hold any `state`. They have no in-memory variables they 
 
 <p align="center">
   <!-- <img src="https://r4.wallpaperflare.com/wallpaper/912/1009/176/street-digital-art-artwork-wallpaper-1990185d91fa4d0b06b7d83fd0f1c69d.jpg" alt="Banner image" width="100%" style="border-radius: 10px;"> -->
-  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/stateless-backend.png.png" alt="Banner image" width="100%" style="border-radius: 10px;">
+  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/stateless-backend.png.png" alt="Banner image" width="70%" style="border-radius: 10px;">
 </p>
 
 **Advantages**
@@ -38,7 +38,7 @@ Sometimes a server needs to hold state in memory. Good examples:
 
 <p align="center">
   <!-- <img src="https://r4.wallpaperflare.com/wallpaper/912/1009/176/street-digital-art-artwork-wallpaper-1990185d91fa4d0b06b7d83fd0f1c69d.jpg" alt="Banner image" width="100%" style="border-radius: 10px;"> -->
-  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/ws-server-state.png.png" alt="Banner image" width="100%" style="border-radius: 10px;">
+  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/ws-server-state.png.png" alt="Banner image" width="70%" style="border-radius: 10px;">
 </p>
 
 Case 1 needs no stickiness. Cases 2 and 3 do.
@@ -49,7 +49,7 @@ Making sure a user who is interested in a specific room gets connected to the sp
 
 <p align="center">
   <!-- <img src="https://r4.wallpaperflare.com/wallpaper/912/1009/176/street-digital-art-artwork-wallpaper-1990185d91fa4d0b06b7d83fd0f1c69d.jpg" alt="Banner image" width="100%" style="border-radius: 10px;"> -->
-  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/stickiness.png.png" alt="Banner image" width="100%" style="border-radius: 10px;">
+  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/stickiness.png.png" alt="Banner image" width="70%" style="border-radius: 10px;">
 </p>
 
 A good question at this point: **how do you store state in a JS project?**
