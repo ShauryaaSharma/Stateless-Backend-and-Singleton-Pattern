@@ -18,7 +18,10 @@ A common interview question.
 
 Most HTTP servers don't hold any `state`. They have no in-memory variables they depend on, and they rely on the database for state instead.
 
-![Stateless backends sharing one Postgres database](./images/stateless-backend.png)
+<p align="center">
+  <!-- <img src="https://r4.wallpaperflare.com/wallpaper/912/1009/176/street-digital-art-artwork-wallpaper-1990185d91fa4d0b06b7d83fd0f1c69d.jpg" alt="Banner image" width="100%" style="border-radius: 10px;"> -->
+  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/stateless-backend.png.png" alt="Banner image" width="100%" style="border-radius: 10px;">
+</p>
 
 **Advantages**
 
@@ -33,7 +36,10 @@ Sometimes a server needs to hold state in memory. Good examples:
 2. The state of a game in a realtime game ([code100x/chess `Game.ts`](https://github.com/code100x/chess/blob/main/apps/ws/src/Game.ts#L41-L47))
 3. The 10 most recent chats of a chat app, kept in memory
 
-![A WebSocket server holding the state of two games in memory](./images/ws-server-state.png)
+<p align="center">
+  <!-- <img src="https://r4.wallpaperflare.com/wallpaper/912/1009/176/street-digital-art-artwork-wallpaper-1990185d91fa4d0b06b7d83fd0f1c69d.jpg" alt="Banner image" width="100%" style="border-radius: 10px;"> -->
+  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/ws-server-state.png.png" alt="Banner image" width="100%" style="border-radius: 10px;">
+</p>
 
 Case 1 needs no stickiness. Cases 2 and 3 do.
 
@@ -41,7 +47,10 @@ Case 1 needs no stickiness. Cases 2 and 3 do.
 
 Making sure a user who is interested in a specific room gets connected to the specific server that holds that room.
 
-![Users routed to the WebSocket server that holds their room](./images/stickiness.png)
+<p align="center">
+  <!-- <img src="https://r4.wallpaperflare.com/wallpaper/912/1009/176/street-digital-art-artwork-wallpaper-1990185d91fa4d0b06b7d83fd0f1c69d.jpg" alt="Banner image" width="100%" style="border-radius: 10px;"> -->
+  <img src="https://github.com/ShauryaaSharma/Stateless-Backend-and-Singleton-Pattern/blob/main/images/stickiness.png.png" alt="Banner image" width="100%" style="border-radius: 10px;">
+</p>
 
 A good question at this point: **how do you store state in a JS project?**
 
